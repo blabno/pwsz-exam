@@ -1,8 +1,11 @@
 describe('Monkey', function ()
 {
+    'use strict';
+    
     var monkey;
     beforeEach(function ()
     {
+        /* global Monkey:false */
         monkey = new Monkey();
     });
     describe('when monkey gets hungry', function ()
@@ -11,6 +14,7 @@ describe('Monkey', function ()
         {
             monkey.makeHungry();
         });
+        
         it('should ask for banana', function ()
         {
             expect(monkey.noise()).toEqual('banana');
@@ -21,6 +25,7 @@ describe('Monkey', function ()
             {
                 monkey.giveBanana();
             });
+            
             it('should go crazy again', function ()
             {
                 expect(monkey.noise()).toEqual('u-a-a');
