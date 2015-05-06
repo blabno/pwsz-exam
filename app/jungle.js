@@ -1,12 +1,15 @@
 /* exported jungle */
+
 function jungle()
 {
     'use strict';
     return 'wofbrrrriiiitrututu';
 }
+
 function Monkey()
 {
 }
+
 Monkey.prototype.makeHungry = function ()
 {
     'use strict';
