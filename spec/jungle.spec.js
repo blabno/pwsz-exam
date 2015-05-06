@@ -1,8 +1,10 @@
 describe('Monkey', function ()
 {
+    'use strict';
     var monkey;
     beforeEach(function ()
     {
+        /* global Monkey:false */
         monkey = new Monkey();
     });
     describe('when monkey gets hungry', function ()
