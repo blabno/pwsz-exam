@@ -1,24 +1,33 @@
-function codecA(a, b)
-{
+function codecA(a, b){
+    'use strict';
+    //jshint bitwise:false
     if (a & b) {
         return a + b;
-    } else {
+    } 
+    else {
         return a;
     }
 }
-function codecB(a, b)
-{
+
+
+function codecB(a, b){
+    'use strict';
+    //jshint bitwise:false
     if (a & b) {
         return a + b;
-    } else {
+    }
+    else {
         return a + ',' + b;
     }
 }
-function codecC(a, b)
-{
-    return a == b;
-}
-function codecD(a, b)
-{
-    return a == b;
+
+
+function codecC(a, b){
+    'use strict';
+    return a === b;
+    }
+
+function codecD(a, b){
+    'use strict';
+    return a === b;
 }
