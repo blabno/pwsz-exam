@@ -74,5 +74,5 @@ public class ATMTest {
         verify(bank, times(1)).withdraw(1);
         verify(bank, times(1)).disconnect();
     }
-
+//ddd
 }
