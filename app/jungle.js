@@ -1,24 +1,31 @@
+/* exported jungle */
 function jungle()
 {
-    return 'wofbrrrriiiitrututu';
+	'use strict';
+	return 'wofbrrrriiiitrututu';
 }
 
 function Monkey()
 {
-
 }
+
 Monkey.prototype.makeHungry = function ()
 {
-    this.hungry = true;
-}
+	'use strict';
+	this.hungry = true;
+};
+
 Monkey.prototype.giveBanana = function ()
 {
-    this.hungry = false;
-}
+	'use strict';
+	this.hungry = false;
+};
+
 Monkey.prototype.noise = function ()
 {
-    var noise = 'u-a-a';
-    if (this.hungry)
-        noise = 'banana';
-        return noise;
-}
+	'use strict';
+	var noise = 'u-a-a';
+	if (this.hungry)
+		noise = 'banana';
+	return noise;
+};
