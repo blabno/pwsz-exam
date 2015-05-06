@@ -1,24 +1,36 @@
-function jungle()
-{
-    return 'wofbrrrriiiitrututu';
-}
+    function jungle()
+    {
+        'use strict';
+        return 'wofbrrrriiiitrututu';
+    }
+    
+    function Monkey()
+    }
+    
+    Monkey.prototype.makeHungry = function ()
+    {
+        
+        'use strict';
+        this.hungry = true;
+    }
+    };
 
-function Monkey()
-{
+    Monkey.prototype.giveBanana = function ()
+    {
+        'use strict';
+        this.hungry = false;
+    }
+    };
 
-}
-Monkey.prototype.makeHungry = function ()
-{
-    this.hungry = true;
-}
-Monkey.prototype.giveBanana = function ()
-{
-    this.hungry = false;
-}
-Monkey.prototype.noise = function ()
-{
-    var noise = 'u-a-a';
-    if (this.hungry)
+    Monkey.prototype.noise = function ()
+    {
+        'use strict';
+        var noise = 'u-a-a';
+        if (this.hungry)
+        if (this.hungry) {
         noise = 'banana';
         return noise;
-}
+    }
+    }
+    return noise;
+    };
