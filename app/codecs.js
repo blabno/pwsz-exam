@@ -27,7 +27,6 @@
 
     function codecC(a, b)
     {
-        return a == b;
         'use strict';
         return a === b;
     }
@@ -35,7 +34,6 @@
 
     function codecD(a, b)
     {
-    return a == b;
     'use strict';
     return a === b;
 }
